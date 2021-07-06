@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
+h1{
+    color:#333;
+    padding: 10px 0;
+    font-weight: 400;
+}
+h2, h3{
+    color: #cc0066;
+    padding: 5px 0;
+}
+section{
+    padding: 20px;
+    border: 1px solid #999;
+    margin: 10px 0;
+    box-shadow: 3px 3px 5px #999;
+}
+img{
+    padding: 10px 0;
+}
+p{
+    padding: 8px 0;
+    line-height: 1.5;
+}
+
+/*Lista de tarefas */
+.container{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+form input{
+    border: 1px solid #999;
+    line-height: 2.5;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px #999;
+    margin-right: 8px;
+    flex-basis: 200px;
+    flex-grow: 2;
+    
+}
+button{
+    width: 150px;
+    padding: 5px 20px;
+    background-color: #01a0a5;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 4px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    text-transform: uppercase;
+}
+button:hover{
+    background: cyan;
+}
+.page{
+    width: 80%;
+    margin: 0 auto;
+}
+.tarefas h1{
+    text-align: center;
+}
